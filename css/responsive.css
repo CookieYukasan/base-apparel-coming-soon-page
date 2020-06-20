@@ -1,0 +1,33 @@
+@media (max-width: 425px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  p {
+    width: 60vw;
+    margin-bottom: 25vh;
+  }
+
+  div.input {
+    width: 60vw;
+  }
+
+  button {
+    width: 70px;
+    right: -42px;
+  }
+
+  .profile-image {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .profile-image {
+    display: block;
+  }
+}
